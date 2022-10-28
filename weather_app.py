@@ -36,7 +36,7 @@ def getWeather():
         name.config(text="CURRENT WEATHER")
 
         #Weather
-        api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=04898df0636345f0198e3ad2835729f3"
+        api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=Enter your Api"
         json_data = requests.get(api).json()
         condition = json_data['weather'][0]['main']
         description = json_data['weather'][0]['description']
