@@ -114,18 +114,4 @@ d.place(x=450,y=440)
 p = Label(text="...",font=("Showcard Gothic",20,"bold"),bg="#00A2E8")
 p.place(x=670,y=440)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 root.mainloop()
